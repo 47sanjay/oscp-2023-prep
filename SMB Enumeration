@@ -1,0 +1,13 @@
+• crackmapexec smb <ip> or <subnet>
+• smbclient -L \\<ip>\\
+• hydra -l Administrator -P <wordlist> <ip> smb
+• smbclient \\\\<ip>\\share
+• smbmap -H <ip>
+
+
+
+*** Tip ***
+If you are unable to find share try with machine name
+example : if my machine name is "Luffy"
+then try
+smbclient -L \\\\<ip>\\Luffy
