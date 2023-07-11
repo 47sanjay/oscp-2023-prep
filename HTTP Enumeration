@@ -1,5 +1,0 @@
-• nikto -h <ip/url> -C all
-• dirb http://<ip>/
-• dirb http://<ip>:<port>/
-• ffuf -ic -w <wordlist> -u http://ip/FUZZ=file.txt -e php,txt,html,bak
-• gobuster dir -w <wordlist> -u http://IP/ -e php,txt,html
