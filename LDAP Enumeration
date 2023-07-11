@@ -1,1 +1,3 @@
-
+• nmap -n -sV --script "ldap* and not brute" <ip>
+• ldapsearch -x -H ldap://<ip> -D '' -w '' -b "DC=test,DC=test" | grep sAMAccountName:
+• ldapsearch -x -H ldap://<ip> -D '' -w '' -b "DC=test,DC=test" | grep description:
